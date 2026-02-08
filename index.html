@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-GH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATRICK IGADGETS | Premium Apple Store</title>
+    <!-- Working Font & Icons -->
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Professional Navbar -->
+    <header class="navbar">
+        <a class="logo" href="index.html"><img src="img/logo.jpeg" alt="logo">PATRICK <span>IGADGETS</span></a>
+        
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-item active">Home</a>
+            <a href="store.html" class="nav-item">Store</a>
+            <a href="about.html" class="nav-item">About Us</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </nav>
+
+        <div class="nav-icons">
+            <a href="login.html" class="account-btn">
+                <i class="fa-regular fa-circle-user"></i>
+                <span>Account</span>
+            </a>
+            <i class="fa-solid fa-bars-staggered menu-toggle" id="menuToggle"></i>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section with iPhone Image -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">Exclusive Collection</span>
+                <h1>All types of Apple iphone.<br>Titanium.</h1>
+                <p>Premium performance for the professional user.</p>
+                <div class="hero-btns">
+                    <a href="store.html" class="btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- The 3-Item Grid (New Arrivals) -->
+        <section id="new-arrivals" class="product-section">
+            <div class="section-title">
+                <h2>New Arrivals</h2>
+            </div>
+            
+            <div class="arrival-grid">
+                <!-- Item 1 -->
+                <div class="product-card">
+                    <div class="img-box">
+                        <img src="img/iPhone 15 Pro Max.jpg" alt="iPhone 15 Pro">
+                    </div>
+                    <h3>iPhone 15 Pro Max</h3>
+                    <p class="price">₵18,500</p>
+                    <a href="store.html" class="btn-link">View Details</a>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="product-card">
+                    <div class="img-box">
+                        <img src="img/iPhone 14 pro black.jpg" alt="iPhone 14 Pro">
+                    </div>
+                    <h3>iPhone 14 Pro Max</h3>
+                    <p class="price">₵14,200</p>
+                    <a href="store.html" class="btn-link">View Details</a>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="product-card">
+                    <div class="img-box">
+                        <img src="img/iPhone 13 Pro.jpg" alt="iPhone 13">
+                    </div>
+                    <h3>iPhone 13 (256GB)</h3>
+                    <p class="price">₵9,800</p>
+                    <a href="store.html" class="btn-link">View Details</a>
+                </div>
+
+                <div class="product-card">
+                    <div class="img-box">
+                        <img src="img/iPhone 17 Pro Max (2).jpg" alt="iPhone 13">
+                    </div>
+                    <h3>iPhone 17Pro Max (512GB)</h3>
+                    <p class="price">₵23,000</p>
+                    <a href="store.html" class="btn-link">View Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Professional Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo">PATRICK <span>IGADGETS</span></div>
+                <p>Authentic Apple products in Kumasi.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Information</h4>
+                <a href="contact.html">Warranty</a>
+                <a href="contact.html">Shipping</a>
+            </div>
+            <div class="footer-col">
+                <h4>Visit Us</h4>
+                <p>Kumasi Adum</p>
+                <p>+233 (0) 55 633 1685</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PATRICK IGADGETS. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menuToggle').onclick = () => {
+            document.getElementById('navLinks').classList.toggle('active');
+        };
+    </script>
+</body>
+</html>

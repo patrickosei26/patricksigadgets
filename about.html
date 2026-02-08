@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-GH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | PATRICK IGADGETS</title>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a class="logo" href="index.html"><img src="img/logo.jpeg" alt="logo">PATRICK <span>IGADGETS</span></a>
+        
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="store.html" class="nav-item">Store</a>
+            <a href="about.html" class="nav-item active">About Us</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </nav>
+
+        <div class="nav-icons">
+            <a href="login.html" class="account-btn">
+                <i class="fa-regular fa-circle-user"></i>
+                <span>Account</span>
+            </a>
+            <i class="fa-solid fa-bars-staggered menu-toggle" id="menuToggle"></i>
+        </div>
+    </header>
+
+    <main class="about-main">
+        <!-- Hero Section -->
+        <section class="about-hero text-center">
+            <div class="container">
+                <span class="eyebrow">Our Story</span>
+                <h1 class="main-title">Defining the Standard <br>of iPhones in Kumasi Adum.</h1>
+            </div>
+        </section>
+
+        <!-- Mission & Image Section -->
+        <section class="about-content">
+            <div class="container split-layout">
+                <div class="text-side">
+                    <h2>Authenticity is our only policy.</h2>
+                    <p>Founded by Patrick, <strong>PATRICK IGADGETS</strong> was born out of a simple need: providing Ghanaians with access to genuine, high-performance Apple technology without the uncertainty.</p>
+                    <p>Based in the heart of Kumasi Adum, we have grown from a small enthusiast shop to a leading destination for the latest iPhone models, ensuring every device that leaves our store is 100% authentic and factory-unlocked.</p>
+                </div>
+                <div class="image-side">
+                    <!-- Replace with a high-quality photo of your shop or an iPhone 15 Pro -->
+                    <img src="img/logo.jpeg" alt="Patrick iGadgets Quality">
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Grid -->
+        <section class="values-section">
+            <div class="container">
+                <div class="value-grid">
+                    <div class="value-card">
+                        <i class="fa-solid fa-shield-check"></i>
+                        <h3>Verified Quality</h3>
+                        <p>Every iPhone undergoes a strict 20-point diagnostic check before sale.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <h3>Fast Delivery</h3>
+                        <p>Nationwide shipping with specialized handling for tech items.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-headset"></i>
+                        <h3>Expert Support</h3>
+                        <p>Local support in Kumasi Adum for all your setup and warranty needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Same footer code as index.html -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 PATRICK IGADGETS. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menuToggle').onclick = () => {
+            document.getElementById('navLinks').classList.toggle('active');
+        };
+    </script>
+</body>
+</html>

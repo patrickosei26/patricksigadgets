@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-GH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | PATRICK IGADGETS</title>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a class="logo" href="index.html"><img src="img/logo.jpeg" alt="logo">PATRICK <span>IGADGETS</span></a>
+        
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="store.html" class="nav-item">Store</a>
+            <a href="about.html" class="nav-item">About Us</a>
+            <a href="contact.html" class="nav-item active">Contact</a>
+        </nav>
+
+        <div class="nav-icons">
+            <a href="login.html" class="account-btn">
+                <i class="fa-regular fa-circle-user"></i>
+                <span>Account</span>
+            </a>
+            <i class="fa-solid fa-bars-staggered menu-toggle" id="menuToggle"></i>
+        </div>
+    </header>
+
+
+    <main class="contact-main">
+        <section class="contact-hero text-center">
+            <div class="container">
+                <span class="eyebrow">Connect with us</span>
+                <h1 class="main-title">We're here to help.</h1>
+                <p>Have questions about a model or pricing? Reach out to Patrick directly.</p>
+            </div>
+        </section>
+
+        <section class="contact-content container">
+            <div class="contact-grid">
+                
+                <!-- Contact Information Side -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h3>Visit Our Store</h3>
+                            <p>Kumasi Adum, Ghana</p>
+                            <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+233 (0) 55 633 1685</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item whatsapp-highlight">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <h3>Chat on WhatsApp</h3>
+                            <p>Instant support & orders</p>
+                            <a href="https://wa.me" target="_blank" class="btn-wa">Message Patrick</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Side -->
+                <div class="contact-form-container">
+                    <form action="#" class="pro-form">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input style="border: 1px solid black;" type="text" placeholder="e.g. Kwesi Mensah" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input style="border: 1px solid black;" type="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>How can we help?</label>
+                            <textarea style="border: 1px solid black;" rows="5" placeholder="I'm interested in the iPhone 15 Pro Max..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Re-use your standard footer here -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 PATRICK IGADGETS. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menuToggle').onclick = () => {
+            document.getElementById('navLinks').classList.toggle('active');
+        };
+    </script>
+</body>
+</html>
