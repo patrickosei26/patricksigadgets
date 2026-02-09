@@ -7,7 +7,7 @@
 
 ### You can view the completed responsive portfolio website by clicking the link below: 
 
-###### https://anaasamoah.github.io/Mark-X/
+###### https://patrickosei26.github.io/patricksigadgets/
 
 ### Student Information
 
