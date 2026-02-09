@@ -1,11 +1,19 @@
-A demo mobile website for selling apple products
+# Web Design Project: Demo Apple Product E-Commerce
 
-By: Patrick Osei Hwedie
+### Course: Foundations of Multimedia & Web Design (BIT Weekend L200)
 
-ID: 2425403518
+### Responsive Layout: Fully optimized for mobile, tablet, and desktop views.
 
-TITLE: Foundations of Multimedia and Web Design
 
-SESSION: BIT WEEKEND L200
+### You can view the completed responsive portfolio website by clicking the link below: 
 
-Lecturer: MR. EBENEZER AKAGLO
+###### https://anaasamoah.github.io/Mark-X/
+
+### Student Information
+
+#### Name: Patrick Osei Hwedie
+
+#### Student ID: 2425403518
+
+#### Lecturer: Dr. Ebenezer Akaglo
+
